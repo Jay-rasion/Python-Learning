@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<HEAD>
+		<title> Sign in </title>
+	</HEAD>
+	<body leftmargin = "20" topmargin = "20" style = "zoom:2.0;">
+		<h1> Sign up (Doesn't make an account) </h1>
+		<form>
+			Name:
+			<input type = "text" name = "name" required>
+			<br>
+			<br>
+			Email:
+			<input type = "email" name = "email" required>
+			<br>
+			<br>
+			Gender: 
+			<br>
+			<br>
+			Male
+			<input type = "radio" name = "gender" value = "male" required>
+			<br>
+			<br>
+			Female
+			<input type = "radio" name = "gender" value = "female" required>
+			<br>
+			<br>
+			Free time:
+			<br>
+			<br>
+			From:
+			<input type = "time" name = "free" value = "12:00" required>
+			<br>
+			<br>
+			to:
+			<input type = "time" name = "free" value = "1:30" required>
+			<br>
+			<br>
+			Experience with Python:
+			<select name = "Experience" required>
+				<option value = "very experienced"> Highly experienced programmer </option>
+				<option value = "knows python"> Know how to code python </option>
+				<option value = "hasn't coded but knows"> Have heard and know some python </option>
+				<option value = "knows nothing"> Haven't heard of python before </option>
+			</select>
+			<br>
+			<br>
+			Learning goals: 
+			<select name = "goal" required>
+				<option value = "wants to code python"> I want use and enter competitions </option>
+				<option value = "for fun"> I just want to learn something new </option>
+				<option value = "professional stuff"> Automation, data retention and sorting </option>
+				<option value = "games"> I want to make games and fun stuff with python </option>
+			</select>
+			<br>
+			<br>
+			Phone number:
+			<input type = "tel"  name = "phone no." required>
+			<br>
+			<
+			<br>
+			<button name = "Submit" type = "Submit"> Submit </button>
+		</form>
+	</body>
+</html>
