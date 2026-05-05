@@ -7,11 +7,11 @@
 		<h1> Sign up (Doesn't make an account) </h1>
 		<form action = "https://formspree.io/f/mreryzaw" method = "POST">
 			Name:
-			<input type = "text" name = "name" required>
+			<input type = "text" name = "name" required placeholder = "Enter your name" minlength = "2" maxlength = "25">
 			<br>
 			<br>
 			Email:
-			<input type = "email" name = "email" required>
+			<input type = "email" name = "email" required minlength = "11">
 			<br>
 			<br>
 			Gender: 
@@ -55,7 +55,7 @@
 			<br>
 			<br>
 			Phone number:
-			<input type = "tel"  name = "phone no." required>
+			<input type = "tel"  name = "phone no." required minlength = "10" maxlength = "10" pattern = "07 [0-9] {8}" placeholder = "Enter your phone number">
 			<br>
 			<
 			<br>
